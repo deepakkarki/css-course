@@ -1,0 +1,15 @@
+{
+  "name": "css-course",
+  "version": "1.0.0",
+  "description": "This repo contains starter files and the finished project files for all the projects contained in the course.",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile:sass": "node-sass --watch Natours/starter/sass/main.scss Natours/starter/css/style.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
