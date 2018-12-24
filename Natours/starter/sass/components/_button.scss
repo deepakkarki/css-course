@@ -24,6 +24,13 @@
         background: $color-white;
         color: $color-grey-dark;
     }
+    &--green{
+        background: $color-primary;
+        color: $color-white;
+    }
+    &--raised{
+        box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.15);
+    }
     &--animated{
         animation: moveInTop 0.75s ease-out 0.5s;
         animation-fill-mode: backwards;
