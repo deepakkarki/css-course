@@ -433,6 +433,42 @@ body {
     opacity: 1;
     transform: translate(-50%, -50%); }
 
+.footer {
+  background-color: #333;
+  padding: 10rem 0;
+  font-size: 1.4rem; }
+  .footer__logo-box {
+    text-align: center;
+    margin-bottom: 8rem; }
+  .footer__logo {
+    width: 15rem; }
+  .footer__navigation {
+    border-top: 1px solid #777;
+    padding-top: 3rem; }
+  .footer__list {
+    list-style: none; }
+  .footer__item {
+    display: inline-block; }
+    .footer__item:not(:last-child) {
+      margin-right: 2rem; }
+  .footer__link {
+    color: #f7f7f7;
+    text-decoration: none;
+    font-size: 1.6rem;
+    padding: .5rem;
+    border: 1px solid transparent;
+    transition: all .2s; }
+    .footer__link:hover, .footer__link:active {
+      color: #55c57a;
+      border: 1px solid;
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4); }
+  .footer__copyright {
+    border-top: 1px solid #777;
+    padding-top: 3rem;
+    width: 80%;
+    float: right;
+    color: #f7f7f7; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
