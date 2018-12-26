@@ -8,6 +8,7 @@
         position: absolute;
         outline-offset: 1rem;
         transition: all .2s;
+        z-index: 1;
 
         &--p1{
             top: -2rem;
