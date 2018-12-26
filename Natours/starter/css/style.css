@@ -1,3 +1,13 @@
+/*
+Media queries
+   0px -  600px  : $phone
+ 600px -  900px  : $tab-port
+ 900px - 1200px  : $tab-land
+1200px - 1800px  : [normal styles apply]
+1800px - inf.px  : $desktop
+
+1em = 16px
+*/
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -37,6 +47,15 @@
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
 
 body {
   box-sizing: border-box; }

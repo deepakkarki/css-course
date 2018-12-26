@@ -7,7 +7,18 @@
 }
 
 html{
-    font-size: 62.5%;
+    // Default font size = 16px
+    font-size: 62.5%; // 1rem=10px; 10/16 = 62.5%
+
+    @include respond(tab-land){ //screen < 1200px?
+        font-size: 56.25%; // 1rem=9px; 9/16 = 56.25%
+    }
+    @include respond(tab-port){ //screen < 900px?
+        font-size: 50%; // 1rem=9px; 9/16 = 56.25%
+    }
+    @include respond(desktop){ //screen > 1800px?
+        font-size: 75%; // 1rem=12px; 12/16 = 75%
+    }
 }
 
 body{
